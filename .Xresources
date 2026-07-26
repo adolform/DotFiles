@@ -1,0 +1,7 @@
+! Configuración adicional recomendada
+xterm*faceName: Monospace:size=14
+xterm*renderFont: true
+xterm*saveLines: 4096
+xterm*vt100*geometry: 80x24
+
+Xcursor.size: 16

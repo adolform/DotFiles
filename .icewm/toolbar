@@ -1,0 +1,7 @@
+# This is a default toolbar definition file for IceWM
+#
+# Place your personal variant in $HOME/.icewm directory.
+
+# prog ""  terminal lxterminal
+# prog "File manager" system-file-manager pcmanfm
+# prog "" ! firefox-esr

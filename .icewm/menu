@@ -1,0 +1,44 @@
+# Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
+separator
+	prog "Administrador de Archivos" system-file-manager terminator -e mc
+	prog "Termninal" terminal terminator
+	prog "Calculator" xcalc xcalc
+	prog "Text Editor" text-editor terminator -e nano	
+	menu "Desarrollo" folder {
+		prog "Emacs" emacs emacs
+		prog "GVim" vim gvim  
+		prog "Putty" putty putty    
+	}
+	menu "Internet" folder {
+	    	prog "Chrome" google-chrome google-chrome-stable
+		prog "Mutt" mutt terminator -e mutt 
+		prog "qBittorrent" qbittorrent qbittorrent
+		prog "RSS" newsboat terminator -e newsboat
+		#prog "CommaFeed"  newsboat google-chrome-stable --app=https://www.commafeed.com
+		#prog "Gmail"  newsboat google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
+	}
+	menu "Multimedia" folder {
+		prog "Audacious" audacious audacious
+		prog "SMPlayer" smplayer smplayer
+	}
+	menu "Juegos" folder {
+		prog "Battle for Wesnoth" wesnoth wesnoth
+		prog "Chess" xboard xboard
+		prog "Crawl Tiles" crawl-tiles crawl-tiles
+		prog "DOSBox" dosbox dosbox
+		prog "Lutris" lutris flatpak run net.lutris.Lutris
+		prog "Nestopia" nestopia nestopia 
+		prog "Proton Plus" proton flatpak run com.vysp3r.ProtonPlus
+		prog "Xye" xye xye
+
+	}
+	menu "Sistema" folder {
+		prog "Bleachbit" bleachbit bleachbit
+		prog "Control de Volumen" multimedia-volume-control pavucontrol
+		prog "Guía de Referencia" debian-logo google-chrome-stable file:///usr/share/doc/debian-reference-common/docs/index.es.html
+		prog "Monitores" display arandr
+		prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
+		prog "xterm" xterm xterm		
+	}
+separator
+prog "Apagar" "system-shutdown" systemctl poweroff
