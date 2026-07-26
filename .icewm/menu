@@ -13,7 +13,6 @@ separator
 	    	prog "Chrome" google-chrome google-chrome-stable
 		prog "Mutt" mutt terminator -e mutt 
 		prog "qBittorrent" qbittorrent qbittorrent
-		prog "RSS" newsboat terminator -e newsboat
 		#prog "CommaFeed"  newsboat google-chrome-stable --app=https://www.commafeed.com
 		#prog "Gmail"  newsboat google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
 	}
