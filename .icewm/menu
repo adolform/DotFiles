@@ -10,11 +10,9 @@ separator
 		prog "Putty" putty putty    
 	}
 	menu "Internet" folder {
-	    	prog "Chrome" google-chrome google-chrome-stable
-		prog "Mutt" mutt terminator -e mutt 
+	    	prog "Chrome" google-chrome google-chrome-stable 
 		prog "qBittorrent" qbittorrent qbittorrent
-		#prog "CommaFeed"  newsboat google-chrome-stable --app=https://www.commafeed.com
-		#prog "Gmail"  newsboat google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
+		prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
 	}
 	menu "Multimedia" folder {
 		prog "Audacious" audacious audacious
