@@ -1,6 +1,5 @@
 #/bin/bash
 blueman-applet  &
-volumeicon &
 diodon &
 udiskie -t &
 picom &
