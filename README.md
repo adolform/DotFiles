@@ -169,6 +169,7 @@ sudo ln -s /opt/deadbeef/bin/deadbeef /usr/bin/deadbeef
 
 ### Volver xfe el filemanager predeterminado en todo
 xdg-mime default pcmanfm.desktop inode/directory
+xdg-mime default mupdf.desktop application/pdf
 
 
 
