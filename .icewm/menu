@@ -1,7 +1,6 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 	prog "Administrador de Archivos" system-file-manager terminator -e mc
-	prog "Termninal" terminal terminator
 	prog "Calculator" xcalc xcalc
 	prog "Text Editor" text-editor terminator -e nano	
 	menu "Desarrollo" folder {
@@ -10,9 +9,10 @@ separator
 		prog "Putty" putty putty    
 	}
 	menu "Internet" folder {
-	    	prog "Chrome" google-chrome google-chrome-stable 
+	    	prog "Chrome" google-chrome google-chrome-stable
+		prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox 
 		prog "qBittorrent" qbittorrent qbittorrent
-		prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
+	
 	}
 	menu "Multimedia" folder {
 		prog "Audacious" audacious audacious

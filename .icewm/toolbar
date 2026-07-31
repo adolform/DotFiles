@@ -2,6 +2,6 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-# prog ""  terminal lxterminal
-# prog "File manager" system-file-manager pcmanfm
-# prog "" ! firefox-esr
+ prog ""  terminator terminator
+#prog "File manager" system-file-manager pcmanfm
+ prog "" !  google-chrome-stable
