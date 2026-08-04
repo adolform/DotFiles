@@ -1,7 +1,7 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
-	prog "Administrador de Archivos" system-file-manager xterm -e mc
-	prog "Calculator" xcalc xcalc	
+	prog "Midnight Commander" mc xterm -e mc
+	prog "Xcalc" xcalc xcalc	
 	menu "Desarrollo" folder {
 		prog "Emacs" emacs emacs
 		prog "GVim" vim gvim  
@@ -9,7 +9,7 @@ separator
 	}
 	menu "Internet" folder {
 	    	prog "Chrome" google-chrome google-chrome-stable
-		prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox 
+		#prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox 
 		prog "qBittorrent" qbittorrent qbittorrent
 	
 	}
