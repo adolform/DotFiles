@@ -2,6 +2,6 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
- prog ""  terminator terminator
+ prog ""  rxvt-unicode rxvt-unicode
 #prog "File manager" system-file-manager pcmanfm
  prog "" !  google-chrome-stable

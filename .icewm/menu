@@ -1,8 +1,7 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
-	prog "Administrador de Archivos" system-file-manager terminator -e mc
-	prog "Calculator" xcalc xcalc
-	prog "Text Editor" text-editor terminator -e nano	
+	prog "Administrador de Archivos" system-file-manager xterm -e mc
+	prog "Calculator" xcalc xcalc	
 	menu "Desarrollo" folder {
 		prog "Emacs" emacs emacs
 		prog "GVim" vim gvim  
@@ -35,7 +34,7 @@ separator
 		prog "Guía de Referencia" debian-logo google-chrome-stable file:///usr/share/doc/debian-reference-common/docs/index.es.html
 		prog "Monitores" display arandr
 		prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
-		prog "xterm" xterm xterm		
+		prog "Xterm" xterm xterm		
 	}
 separator
 prog "Apagar" "system-shutdown" systemctl poweroff
