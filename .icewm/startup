@@ -1,6 +1,5 @@
 #/bin/bash
 blueman-applet  &
-diodon &
 udiskie -t &
 picom &
 light-locker --lock-after-screensaver=0 &
