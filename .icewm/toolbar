@@ -2,6 +2,6 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
- prog ""  xterm xterm
+ prog ""  terminal xterm
 #prog "File manager" system-file-manager pcmanfm
  prog "" !  google-chrome-stable
