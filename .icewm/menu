@@ -34,7 +34,7 @@ separator
 		prog "Guía de Referencia" debian-logo google-chrome-stable file:///usr/share/doc/debian-reference-common/docs/index.es.html
 		prog "Monitores" display arandr
 		prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
-		prog "Xterm" xterm xterm		
+		prog "Xterm" terminal xterm		
 	}
 separator
 prog "Apagar" "system-shutdown" systemctl poweroff
