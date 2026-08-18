@@ -1,0 +1,43 @@
+! =====================================================================
+! CONFIGURACIÓN COMPARTIDA (Aplica a xterm y urxvt)
+! =====================================================================
+! Definición de la fuente tipográfica
+URxvt.font: xft:Monospace:size=12
+
+! Historial de comandos en caché
+*.saveLines: 5000
+
+! Esquema de colores (Fondo oscuro, texto gris claro)
+URxvt.foreground: #BABABA
+URxvt.background: #1C1C1C
+URxvt.cursorColor: #FFFFFF
+
+! Colores ANSI básicos (idénticos para ambos)
+*.color0:  #2E3440
+*.color8:  #4C566A
+*.color1:  #BF616A
+*.color9:  #BF616A
+*.color2:  #A3BE8C
+*.color10: #A3BE8C
+*.color3:  #EBCB8B
+*.color11: #EBCB8B
+*.color4:  #81A1C1
+*.color12: #81A1C1
+*.color5:  #B48EAD
+*.color13: #B48EAD
+*.color6:  #88C0D0
+*.color14: #8FBCBB
+*.color7:  #E5E9F0
+*.color15: #ECEFF4
+
+! =====================================================================
+! AJUSTES ESPECÍFICOS PARA XTERM
+! =====================================================================
+xterm*termName: xterm-256color
+xterm*locale: true
+xterm*scrollbar: false
+xterm*selectToClipboard: true
+xterm*faceName: Monospace:size=12
+
+Xcursor.size: 16
+Xcursor.theme: default

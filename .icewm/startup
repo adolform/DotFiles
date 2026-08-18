@@ -1,0 +1,10 @@
+#/bin/bash
+diodon &
+blueman-applet  &
+udiskie -t &
+picom &
+light-locker --lock-after-screensaver=0 &
+xset dpms 60 60 60 &
+sleep 2
+sh ~/.screenlayout/home.sh &
+feh --bg-scale /home/adolfo/Wallpapers/teal.jpg &
