@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install acpi alsa-utils arandr build-essential cmatrix cowsay curl diodon dkms eject extrepo feh ftp git imagemagick innoextract libdrm-dev lightdm linux-headers-$(uname -r) mc ncal network-manager p7zip-full papirus-icon-theme pavucontrol picom pulseaudio qbittorrent rxvt-unicode scrot sioyek smartmontools smplayer tlp timeshift udiskie unar unrar-free unattended-upgrades vim wget x11-xserver-utils xclip xcowsay -y
+sudo apt install acpi audacious alsa-utils arandr build-essential cmatrix cowsay curl diodon dkms eject extrepo feh ftp git imagemagick innoextract libdrm-dev lightdm linux-headers-$(uname -r) mc mpv ncal network-manager p7zip-full papirus-icon-theme pavucontrol picom pulseaudio qbittorrent rxvt-unicode sioyek smartmontools tlp timeshift udiskie unar unrar-free unattended-upgrades vim wget x11-xserver-utils xclip xcowsay -y
 echo "[OK] Programas base completados."
 echo
 
@@ -71,7 +71,7 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Dev Tools..."
-    sudo apt install cmake default-jdk default-jre gdb nodejs npm python3-pip python3-venv putty putty-tools sqlite3 vim-gtk3 neovim-qt -y
+    sudo apt install cmake default-jdk default-jre gdb nodejs npm python3-pip python3-venv putty putty-tools sqlite3 vim-gtk3 -y
     
 else
     echo
