@@ -1,10 +1,12 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 prog "Guía de Referencia" debian-logo google-chrome-stable file:///usr/share/doc/debian-reference-common/docs/index.es.html
+menu "Documentos" folder {
+
+}
 separator
 prog "audacious" audacious audacious
 prog "chrome" google-chrome google-chrome-stable
 #prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
-prog "gvim" vim gvim
-prog "neovim" nvim nvim-qt
+prog "gvim" gvim  gvim
 separator

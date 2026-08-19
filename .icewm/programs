@@ -1,23 +1,21 @@
-# Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 prog "audacious" audacious audacious
 prog "arandr" video-display arandr
 prog "chess" xboard xboard
 prog "chrome" google-chrome google-chrome-stable
+prog "firefox" firefox firefox-esr
 prog "crawl-tiles" crawl-tiles crawl-tiles
 prog "dosbox" dosbox dosbox
 #prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
-prog "gvim" vim gvim
+prog "gvim" gvim gvim
 prog "lutris" lutris flatpak run net.lutris.Lutris
 prog "midnight commander" mc rxvt-unicode -e mc
 prog "nano"  accessories-text-editor rxvt-unicode -e nano
-prog "neoVim" nvim nvim-qt
 prog "nestopia" nestopia nestopia
 prog "pavucontrol" multimedia-volume-control pavucontrol
 prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus
 prog "putty" putty putty
 prog "qbittorrent" qbittorrent qbittorrent
-prog "smplayer" multimedia-video-player smplayer
 prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
 prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk	
 prog "wesnoth" wesnoth wesnoth

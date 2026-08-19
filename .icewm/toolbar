@@ -2,5 +2,5 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-prog "xterm"  terminal xterm
-prog "Midnight Commander"  mc rxvt-unicode -e mc
+prog "xterm (ctrl+alt+t)"  terminal xterm
+prog "Midnight Commander (ctrl+alt+f)"  mc rxvt-unicode -e mc
