@@ -57,7 +57,7 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # LargeIconSize=32 # [8-128]
 
 #  Menu icon size.
- MenuIconSize=16 # [8-128]
+ MenuIconSize=24 # [8-128]
 
 #  Show application icon over menu button.
  ShowMenuButtonIcon=1 # 0/1

@@ -14,6 +14,7 @@ prog "pavucontrol" multimedia-volume-control pavucontrol
 prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus
 prog "putty" putty putty
 prog "qbittorrent" qbittorrent qbittorrent
+prog "sioyek" sioyek sioyek
 prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
 prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk	
 prog "vim" vim rxvt-unicode -e vim
