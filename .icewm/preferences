@@ -6,7 +6,7 @@
 
 
 #  Command to run on clock.
-ClockCommand="xterm -geometry 66x10 -hold -e cal -3"
+ClockCommand="xterm -geometry 22x10 -hold -e cal"
 
 #  Confirm logout.
  ConfirmLogout=1 # 0/1
@@ -70,3 +70,4 @@ TrayIconMaxHeight=16 # [16-128]
 
 #  Maximum scaled width of tray icons.
 TrayIconMaxWidth=16 # [16-128]
+

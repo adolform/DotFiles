@@ -2,9 +2,9 @@ separator
 prog "audacious" audacious audacious
 prog "arandr" video-display arandr
 prog "chess" xboard xboard
-prog "chrome" google-chrome google-chrome-stable
 prog "crawl-tiles" crawl-tiles crawl-tiles
 prog "dosbox" dosbox dosbox
+prog "firefox" firefox firefox-esr
 #prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
 prog "lutris" lutris flatpak run net.lutris.Lutris
 prog "midnight commander" mc rxvt-unicode -e mc
