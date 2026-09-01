@@ -6,9 +6,12 @@ prog "crawl-tiles" crawl-tiles crawl-tiles
 prog "dosbox" dosbox dosbox
 prog "firefox" firefox firefox-esr
 #prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
+prog "keepassxc" keepassxc keepassxc
 prog "lutris" lutris flatpak run net.lutris.Lutris
 prog "midnight commander" mc rxvt-unicode -e mc
+prog "mutt" mutt rxvt-unicode -e mutt
 prog "nano"  accessories-text-editor rxvt-unicode -e nano
+prog "newsboat" newsboat rxvt-unicode -e newsboat
 prog "nestopia" nestopia nestopia
 prog "pavucontrol" multimedia-volume-control pavucontrol
 prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus

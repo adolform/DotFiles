@@ -7,6 +7,7 @@ menu "Documentos" folder {
 separator
 prog "audacious" audacious audacious
 prog "firefox" firefox firefox-esr
-#prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
+prog "mutt" mutt rxvt-unicode -e mutt
+prog "newsboat" newsboat rxvt-unicode -e newsboat
 prog "vim" vim rxvt-unicode -e vim
 separator
