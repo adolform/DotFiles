@@ -1,28 +1,35 @@
-separator
-prog "audacious" audacious audacious
-prog "arandr" video-display arandr
-prog "chess" xboard xboard
-prog "crawl-tiles" crawl-tiles crawl-tiles
-prog "dosbox" dosbox dosbox
-prog "firefox" firefox firefox-esr
-#prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
-prog "keepassxc" keepassxc keepassxc
-prog "lutris" lutris flatpak run net.lutris.Lutris
-prog "midnight commander" mc rxvt-unicode -e mc
-prog "mutt" mutt rxvt-unicode -e mutt
-prog "nano"  accessories-text-editor rxvt-unicode -e nano
-prog "newsboat" newsboat rxvt-unicode -e newsboat
-prog "nestopia" nestopia nestopia
-prog "pavucontrol" multimedia-volume-control pavucontrol
-prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus
-prog "putty" putty putty
-prog "qbittorrent" qbittorrent qbittorrent
-prog "sioyek" sioyek sioyek
-prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
-prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk	
-prog "vim" vim rxvt-unicode -e vim
-prog "wesnoth" wesnoth wesnoth
-prog "xcalc" accessories-calculator xcalc
-prog "xterm" terminal xterm
-prog "xye" xye xye
-separator
+menu "Accesorios" folder {
+    prog "xcalc" accessories-calculator xcalc
+    prog "xterm" terminal xterm
+    prog "nano" accessories-text-editor rxvt-unicode -e nano
+    prog "sioyek" sioyek sioyek
+    prog "vim" vim rxvt-unicode -e vim
+}
+menu "Internet" world {
+    prog "firefox" firefox firefox-esr
+    prog "mutt" mutt rxvt-unicode -e mutt
+    prog "newsboat" newsboat rxvt-unicode -e newsboat
+    prog "putty" putty putty
+    prog "qbittorrent" qbittorrent qbittorrent
+}
+menu "Multimedia" sound {
+    prog "audacious" audacious audacious
+    prog "pavucontrol" multimedia-volume-control pavucontrol
+}
+menu "Juegos" run {
+    prog "chess" xboard xboard
+    prog "crawl-tiles" crawl-tiles crawl-tiles
+    prog "dosbox" dosbox dosbox
+    prog "lutris" lutris flatpak run net.lutris.Lutris
+    prog "nestopia" nestopia nestopia
+    prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus
+    prog "wesnoth" wesnoth wesnoth
+    prog "xye" xye xye
+}
+menu "Herramientas del sistema" configure {
+    prog "arandr" video-display arandr
+    prog "keepassxc" keepassxc keepassxc
+    prog "midnight commander" mc rxvt-unicode -e mc
+    prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
+    prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk    
+}
