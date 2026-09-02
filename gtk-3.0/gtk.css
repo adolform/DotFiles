@@ -1,0 +1,12 @@
+/* Eliminar sombras negras en menús, popovers y contextos del sistema */
+menu, 
+popover, 
+.menu, 
+.context-menu {
+  box-shadow: none !important;
+  border: 1px solid alpha(currentColor, 0.2) !important;
+}
+ 
+menuitem {
+  box-shadow: none !important;
+}
