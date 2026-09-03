@@ -1,7 +1,6 @@
 #/bin/bash
 blueman-applet  &
 udiskie -t &
-picom &
 light-locker --lock-after-screensaver=0 &
 xset dpms 60 60 60 &
 sleep 2
