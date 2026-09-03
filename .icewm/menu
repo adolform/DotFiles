@@ -7,7 +7,5 @@ menu "Documentos" folder {
 separator
 prog "audacious" audacious audacious
 prog "firefox" firefox firefox-esr
-prog "mutt" mutt rxvt-unicode -e mutt
-prog "newsboat" newsboat rxvt-unicode -e newsboat
 prog "vim" vim rxvt-unicode -e vim
 separator
