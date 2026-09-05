@@ -6,7 +6,7 @@
 
 
 #  Command to run on clock.
-ClockCommand="xterm -geometry 22x10 -hold -e cal"
+ClockCommand="xterm -geometry 66x10 -hold -e cal -3"
 
 #  Confirm logout.
  ConfirmLogout=1 # 0/1
