@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install acpi audacious alsa-utils arandr build-essential cmatrix cowsay curl dkms eject extrepo feh firefox-esr ftp git innoextract keepassxc libdrm-dev lightdm linux-headers-$(uname -r) mc mpv ncal network-manager p7zip-full papirus-icon-theme pavucontrol pulseaudio qbittorrent rxvt-unicode sioyek smartmontools tmux tlp timeshift udiskie unar unrar-free unattended-upgrades vim wget x11-xserver-utils xclip xcowsay -y
+sudo apt install acpi audacious alsa-utils arandr build-essential cmatrix cowsay curl dkms eject extrepo feh firefox-esr ftp git innoextract keepassxc libdrm-dev linux-headers-$(uname -r) mc mpv mutt ncal network-manager newsboat p7zip-full papirus-icon-theme pavucontrol pulseaudio qbittorrent rxvt-unicode sioyek smartmontools tmux tlp timeshift udiskie unar unrar-free vim wget x11-xserver-utils xclip xcowsay -y
 echo "[OK] Programas base completados."
 echo
 
