@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install acpi audacious alsa-utils arandr build-essential cmatrix cowsay curl dkms eject extrepo feh firefox-esr ftp git innoextract keepassxc libdrm-dev linux-headers-$(uname -r) mc mpv mutt ncal network-manager newsboat p7zip-full papirus-icon-theme pavucontrol pulseaudio qbittorrent rxvt-unicode sioyek smartmontools tmux tlp timeshift udiskie unar unrar-free vim wget x11-xserver-utils xclip xcowsay -y
+sudo apt install acpi audacious alsa-utils arandr build-essential curl dkms eject extrepo feh ftp git innoextract keepassxc libdrm-dev linux-headers-$(uname -r) mc mpv mutt ncal network-manager newsboat p7zip-full papirus-icon-theme pavucontrol pulseaudio qbittorrent rxvt-unicode sioyek smartmontools tmux tlp timeshift udiskie unar unrar-free vim wget x11-xserver-utils xclip -y
 echo "[OK] Programas base completados."
 echo
 
@@ -87,7 +87,7 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Dev Tools..."
-    apt install crawl-tiles wesnoth dosbox xboard xye -y
+    apt install wesnoth dosbox xboard -y
     
 else
     echo

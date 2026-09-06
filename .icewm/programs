@@ -1,6 +1,4 @@
 prog "arandr" video-display arandr
-prog "chess" xboard xboard
-prog "crawl-tiles" crawl-tiles crawl-tiles
 prog "dosbox" dosbox dosbox
 #prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
 prog "keepassxc" keepassxc keepassxc
@@ -15,5 +13,5 @@ prog "sioyek" sioyek sioyek
 prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
 prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk    
 prog "wesnoth" wesnoth wesnoth
+prog "xboard" xboard xboard
 prog "xcalc" accessories-calculator xcalc
-prog "xye" xye xye
