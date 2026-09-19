@@ -1,7 +1,6 @@
 prog "arandr" video-display arandr
 prog "dosbox" dosbox dosbox
 prog "gpodder" gpodder gpodder
-prog "keepassxc" keepassxc keepassxc
 prog "lutris" lutris flatpak run net.lutris.Lutris
 prog "nano"  accessories-text-editor rxvt-unicode -e nano
 prog "nestopia" nestopia nestopia
@@ -11,7 +10,7 @@ prog "putty" putty putty
 prog "qbittorrent" qbittorrent qbittorrent
 prog "sioyek" sioyek sioyek
 prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
-prog "timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk    
+prog "timeshift" timeshift xterm -e pkexec timeshift-gtk    
 prog "wesnoth" wesnoth wesnoth
 prog "xboard" xboard xboard
 prog "xcalc" accessories-calculator xcalc
