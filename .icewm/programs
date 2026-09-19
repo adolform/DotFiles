@@ -1,6 +1,5 @@
 prog "arandr" video-display arandr
 prog "dosbox" dosbox dosbox
-#prog "Gmail"  gmail google-chrome-stable --app=https://mail.google.com/mail/u/0/#inbox
 prog "gpodder" gpodder gpodder
 prog "keepassxc" keepassxc keepassxc
 prog "lutris" lutris flatpak run net.lutris.Lutris
