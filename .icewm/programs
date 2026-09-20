@@ -1,16 +1,19 @@
-prog "arandr" video-display arandr
-prog "dosbox" dosbox dosbox
-prog "gpodder" gpodder gpodder
-prog "lutris" lutris flatpak run net.lutris.Lutris
-prog "nano"  accessories-text-editor rxvt-unicode -e nano
-prog "nestopia" nestopia nestopia
-prog "pavucontrol" multimedia-volume-control pavucontrol
-prog "proton plus" proton-plus flatpak run com.vysp3r.ProtonPlus
-prog "putty" putty putty
-prog "qbittorrent" qbittorrent qbittorrent
-prog "sioyek" sioyek sioyek
-prog "sqlite" openoffice4-calc rxvt-unicode -e sqlite3
-prog "timeshift" timeshift xterm -e pkexec timeshift-gtk    
-prog "wesnoth" wesnoth wesnoth
-prog "xboard" xboard xboard
-prog "xcalc" accessories-calculator xcalc
+prog "arandr" - arandr
+prog "dosbox" - dosbox
+prog "ftp" - rxvt-unicode -e ftp
+prog "gpodder" - gpodder
+prog "lutris" - flatpak run net.lutris.Lutris
+prog "mutt" - rxvt-unicode -e mutt
+prog "nano" - rxvt-unicode -e nano
+prog "newsboat" - rxvt-unicode -e newsboat 
+prog "nestopia" - nestopia
+prog "pavucontrol" - pavucontrol
+prog "proton plus" - flatpak run com.vysp3r.ProtonPlus
+prog "putty" - putty
+prog "qbittorrent" - qbittorrent
+prog "sioyek" - sioyek
+prog "sqlite" - rxvt-unicode -e sqlite3
+prog "timeshift" - xterm -e pkexec timeshift-gtk    
+prog "wesnoth" - wesnoth
+prog "xboard" - xboard
+prog "xcalc" - xcalc

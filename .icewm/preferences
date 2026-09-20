@@ -39,7 +39,7 @@ TaskBarShowNetStatus=0 # 0/1
  TaskBarShowShowDesktopButton=2 # [0-2]
 
 #  Show titles of windows on task buttons of the task bar.
- TaskBarShowWindowTitles=0 # 0/1
+ TaskBarShowWindowTitles=1 # 0/1
 
 #  Show workspace switching buttons on task bar.
  TaskBarShowWorkspaces=0 # 0/1
@@ -57,17 +57,17 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # LargeIconSize=32 # [8-128]
 
 #  Menu icon size.
- MenuIconSize=48 # [8-128]
+ MenuIconSize=16 # [8-128]
 
 #  Show application icon over menu button.
  ShowMenuButtonIcon=1 # 0/1
 
 #  Dimension of the small icons.
- SmallIconSize=32 #[8-128]
+ SmallIconSize=16 #[8-128]
 
 #  Maximum scaled height of tray icons.
-TrayIconMaxHeight=32 # [16-128]
+TrayIconMaxHeight=16 # [16-128]
 
 #  Maximum scaled width of tray icons.
-TrayIconMaxWidth=32 # [16-128]
+TrayIconMaxWidth=16 # [16-128]
 
