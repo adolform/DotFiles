@@ -4,6 +4,7 @@ prog "ftp" - rxvt-unicode -e ftp
 prog "gpodder" - gpodder
 prog "lutris" - flatpak run net.lutris.Lutris
 prog "mutt" - rxvt-unicode -e mutt
+prog "mupdf" - mupdf-gl
 prog "nano" - rxvt-unicode -e nano
 prog "newsboat" - rxvt-unicode -e newsboat 
 prog "nestopia" - nestopia
@@ -11,7 +12,6 @@ prog "pavucontrol" - pavucontrol
 prog "proton plus" - flatpak run com.vysp3r.ProtonPlus
 prog "putty" - putty
 prog "qbittorrent" - qbittorrent
-prog "sioyek" - sioyek
 prog "sqlite" - rxvt-unicode -e sqlite3
 prog "timeshift" - xterm -e pkexec timeshift-gtk    
 prog "wesnoth" - wesnoth
