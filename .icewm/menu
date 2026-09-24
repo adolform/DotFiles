@@ -1,11 +1,13 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
-prog "Guía de Referencia" - firefox-esr file:///usr/share/doc/debian-reference-common/docs/index.es.html
+prog "Guía de Referencia" debian-logo firefox-esr file:///usr/share/doc/debian-reference-common/docs/index.es.html
 separator
 prog "audacious" audacious audacious
 prog "firefox" firefox-esr firefox-esr
+prog "mutt" email rxvt-unicode -e mutt
+prog "newsboat" rss rxvt-unicode -e newsboat
 prog "vim" vim rxvt-unicode -e vim
 separator
 prog "mc" mc rxvt-unicode -e mc
-prog "xterm" xterm xterm
+prog "xterm" terminal xterm
 separator

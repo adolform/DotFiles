@@ -1,19 +1,17 @@
-prog "arandr" - arandr
-prog "dosbox" - dosbox
-prog "ftp" - rxvt-unicode -e ftp
-prog "gpodder" - gpodder
-prog "lutris" - flatpak run net.lutris.Lutris
-prog "mutt" - rxvt-unicode -e mutt
-prog "mupdf" - mupdf-gl
-prog "nano" - rxvt-unicode -e nano
-prog "newsboat" - rxvt-unicode -e newsboat 
-prog "nestopia" - nestopia
-prog "pavucontrol" - pavucontrol
-prog "proton plus" - flatpak run com.vysp3r.ProtonPlus
-prog "putty" - putty
-prog "qbittorrent" - qbittorrent
-prog "sqlite" - rxvt-unicode -e sqlite3
-prog "timeshift" - xterm -e pkexec timeshift-gtk    
-prog "wesnoth" - wesnoth
-prog "xboard" - xboard
-prog "xcalc" - xcalc
+prog "arandr" monitor arandr
+prog "dosbox" dosbox dosbox
+prog "ftp" gftp rxvt-unicode -e ftp
+prog "gpodder" gpodder gpodder
+prog "lutris" lutris flatpak run net.lutris.Lutris
+prog "mupdf" mupdf mupdf-gl
+prog "nano" text-editor rxvt-unicode -e nano
+prog "nestopia" nestopia nestopia
+prog "pavucontrol" pavucontrol pavucontrol
+prog "proton plus" com.github.Matoking.protontricks flatpak run com.vysp3r.ProtonPlus
+prog "putty" putty putty
+prog "qbittorrent" qbittorrent qbittorrent
+prog "sqlite" sqldeveloper rxvt-unicode -e sqlite3
+prog "timeshift" timeshift xterm -e pkexec timeshift-gtk    
+prog "wesnoth" wesnoth wesnoth
+prog "xboard" chess xboard
+prog "xcalc" xcalc xcalc
