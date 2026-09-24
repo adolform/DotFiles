@@ -4,8 +4,6 @@ prog "Guía de Referencia" debian-logo firefox-esr file:///usr/share/doc/debian-
 separator
 prog "audacious" audacious audacious
 prog "firefox" firefox-esr firefox-esr
-prog "mutt" email rxvt-unicode -e mutt
-prog "newsboat" rss rxvt-unicode -e newsboat
 prog "vim" vim rxvt-unicode -e vim
 separator
 prog "mc" mc rxvt-unicode -e mc
