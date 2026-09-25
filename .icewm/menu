@@ -3,8 +3,9 @@ separator
 prog "Guía de Referencia" debian-logo firefox-esr file:///usr/share/doc/debian-reference-common/docs/index.es.html
 separator
 prog "audacious" audacious audacious
+prog "emacs" emacs emacs
 prog "firefox" firefox-esr firefox-esr
-prog "vim" vim rxvt-unicode -e vim
+prog "Gvim" gvim gvim 
 separator
 prog "mc" mc rxvt-unicode -e mc
 prog "xterm" terminal xterm

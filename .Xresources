@@ -2,7 +2,7 @@
 ! CONFIGURACIÓN COMPARTIDA (Aplica a xterm y urxvt)
 ! =====================================================================
 ! Definición de la fuente tipográfica
-URxvt.font: xft:Monospace:size=12
+URxvt.font: xft:Monospace:size=14
 
 ! Historial de comandos en caché
 *.saveLines: 5000
@@ -19,9 +19,8 @@ xterm*termName: xterm-256color
 xterm*locale: true
 xterm*scrollbar: false
 xterm*selectToClipboard: true
-xterm*faceName: Monospace:size=12
+xterm*faceName: Monospace:size=14
 
 Xcursor.size: 16
 Xcursor.theme: default
 
-!Xft.dpi: 144
