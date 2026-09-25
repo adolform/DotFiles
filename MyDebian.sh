@@ -71,7 +71,7 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Dev Tools..."
-    sudo apt install cmake default-jdk default-jre gdb nodejs npm python3-pip python3-venv putty putty-tools sqlite3 vim-gtk3 emacs -y
+    sudo apt install cmake default-jdk default-jre gdb nodejs npm python3-pip python3-venv putty putty-tools sqlite3 -y
     
 else
     echo
